@@ -44,4 +44,30 @@
 }
 .search-category-content-item p{
     margin: 0px;
+    color: rgb(38, 38, 38);
+    font-family: Pretendard;
+    font-size: 14px;
+    font-weight: 100;
+    line-height: -1px;
+    letter-spacing: -0.2px;
+    text-align: left;
+}
+
+.search-data-item{
+    display: flex;
+}
+
+
+.searhc-data-item-main img{
+    height: 100.5%;
+}
+.search-data-item-main {
+    display: grid;
+    gap: 1px;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.search-data-item-first {
+    display: grid;
+    padding-right: 1px;
 }
