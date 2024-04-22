@@ -16,7 +16,6 @@ body {
 }
 .alarm_header {
   width: 100%;
-  height: 40px;
   padding-top: 20px;
   display: flex;
   justify-content: space-around;
@@ -29,22 +28,31 @@ body {
   text-align: center;
   width: 50%;
   height: 100%;
+  background-color: white;
+  font-size: 16px;
+  border: none;
+  padding-bottom: 20px;
+  color: rgba(0, 0, 0, 0.4);
 }
-.alarm_header_item:focus {
+.alarm_header_item:nth-child(2) {
   border-bottom: 2px solid;
   border-image: linear-gradient(to right, #fbaa47, #d91a46, #a60f93) 1;
   cursor: pointer;
+  color: rgba(0, 0, 0, 0.6);
 }
 .alarm_section {
   width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
+  overflow-y: scroll;
 }
 .alarm_section_top {
   width: 100%;
   border-bottom: 1px solid rgba(0, 0, 0, 0.2);
   padding: 10px;
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.7);
 }
 .alarm_section_gray_text {
   color: rgba(0, 0, 0, 0.4);
