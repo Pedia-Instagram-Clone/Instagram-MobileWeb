@@ -3,7 +3,9 @@ body {
   justify-content: center;
   align-items: center;
   max-width: 390px;
+  min-width: 370px;
   height: 100vh;
   margin: 0 auto;
   border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.1);
 }
