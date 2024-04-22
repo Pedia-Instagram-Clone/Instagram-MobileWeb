@@ -1,4 +1,7 @@
 body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   max-width: 390px;
   margin: 0 auto;
   border: solid 1px #999999;
