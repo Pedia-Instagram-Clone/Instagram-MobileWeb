@@ -12,6 +12,9 @@ body {
   justify-content: space-between;
   border-radius: 10px;
 }
+.home_section {
+  overflow-y: scroll;
+}
 .home_header {
   width: 100%;
   padding: 10px;
@@ -26,6 +29,9 @@ body {
 }
 .home_header_item {
   width: 33%;
+}
+.home_section_info {
+  padding-top: 20px;
 }
 .home_header_secondDiv {
   display: flex;
