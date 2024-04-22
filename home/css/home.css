@@ -5,10 +5,11 @@ body {
 }
 .main_dev {
   width: 100%;
+  height: 850px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  border: 1px solid rgba(0, 0, 0, 0.2);
+  justify-content: space-between;
   border-radius: 10px;
 }
 .home_header {
@@ -30,6 +31,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding-top: 10px;
 }
 
 .user_item {
@@ -67,6 +69,7 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 15px;
+  padding-top: 0px;
 }
 .home_section_info {
   display: flex;
