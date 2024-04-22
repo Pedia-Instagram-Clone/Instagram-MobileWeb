@@ -1,0 +1,140 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main_dev {
+  width: 100%;
+  height: 850px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 10px;
+}
+.home_section {
+  overflow-y: scroll;
+}
+.home_header {
+  width: 100%;
+  padding: 10px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+.home_header_firstDiv {
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  margin-bottom: 10px;
+  padding: 0px 10px;
+}
+.home_header_item {
+  width: 33%;
+}
+.home_section_info {
+  padding-top: 20px;
+}
+.home_header_secondDiv {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 10px;
+}
+
+.user_item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  padding: 3px;
+  background: linear-gradient(#a60f93, #d91a46, #fbaa47);
+  background-clip: padding-box;
+  object-fit: cover;
+  margin-right: 5px;
+  margin-bottom: 20px;
+}
+.user_item img {
+  width: 100%;
+  height: 100%;
+  margin-bottom: 5px;
+}
+.user_item span {
+  font-size: 12px;
+}
+.header-last-item {
+  text-align: right;
+}
+.home_section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.home_section_div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  padding-top: 0px;
+}
+.home_section_info {
+  display: flex;
+}
+.home_section_info_text {
+  margin-left: 10px;
+}
+.info_check {
+  margin-right: 10px;
+}
+.home_section_img_div img {
+  width: 100%;
+  height: 100%;
+}
+.post_div {
+  padding: 0px 10px;
+}
+.post_div p {
+  margin: 0px;
+}
+.post_heart {
+  display: flex;
+  align-items: center;
+  margin: 7px 0px;
+}
+.heart_item {
+  width: 33%;
+
+  text-align: center;
+}
+.heart_item img {
+  margin-right: 7px;
+}
+.heart_item:nth-child(1) {
+  text-align: left;
+}
+
+.heart_item_first {
+  display: flex;
+  align-items: center;
+}
+.heart_item:nth-child(3) {
+  text-align: right;
+}
+.like_user {
+  display: flex;
+  align-items: center;
+  margin: 10px 0px;
+}
+.like_user img {
+  margin-right: 10px;
+}
+
+.post_text {
+  color: rgba(0, 0, 0, 0.3);
+}
+.home_footer {
+  width: 100%;
+  display: flex;
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+  margin-top: 20px;
+}
