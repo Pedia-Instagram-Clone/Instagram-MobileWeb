@@ -1,0 +1,47 @@
+.search-main {
+    display: flex;
+    /* flex-item 사이의 간격 */
+    gap: 10px;
+}
+
+.search-input {
+    outline: none;
+    position: relative;
+    width: 327px;
+    height: 36px;
+    /* left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%; */
+    border-radius: 10px;
+    border-color: transparent;
+    background: rgba(118, 118, 128, 0.12);
+    background-image: url('./image/ic_search.svg');
+    background-repeat: no-repeat;
+    background-position: 10px center;
+    padding-left: 34px;
+}
+
+.search-category-content {
+    list-style:none;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 0px;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 6px;
+}
+
+.search-category-content-item{
+    /* Rectangle */
+    position: relative;
+    top: 0;
+    text-align: center;
+    border: 2px solid rgba(60, 60, 67, 0.18);
+    border-radius: 6px;
+    background: rgb(255, 255, 255);
+    padding: 8px 12px 8px 12px;
+}
+.search-category-content-item p{
+    margin: 0px;
+}
