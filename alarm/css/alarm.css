@@ -49,7 +49,7 @@ body {
 }
 .alarm_section_top {
   width: 100%;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
   padding: 10px;
   font-size: 20px;
   color: rgba(0, 0, 0, 0.7);
@@ -58,11 +58,11 @@ body {
   color: rgba(0, 0, 0, 0.4);
 }
 .section_common {
-  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
   padding: 10px;
 }
 .new_text {
-  font-size: 25px;
+  font-size: 20px;
   color: rgba(0, 0, 0, 0.4);
   margin-bottom: 10px;
 }
