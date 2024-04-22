@@ -30,10 +30,46 @@ body {
   width: 50%;
   height: 100%;
 }
-.alarm_header_item:hover {
+.alarm_header_item:focus {
   border-bottom: 2px solid;
   border-image: linear-gradient(to right, #fbaa47, #d91a46, #a60f93) 1;
   cursor: pointer;
+}
+.alarm_section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.alarm_section_top {
+  width: 100%;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 10px;
+}
+.alarm_section_gray_text {
+  color: rgba(0, 0, 0, 0.4);
+}
+.new {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 10px;
+}
+.new_text {
+  font-size: 25px;
+  color: rgba(0, 0, 0, 0.4);
+  margin-bottom: 10px;
+}
+.new_item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.new_img {
+  display: flex;
+  align-items: center;
+}
+.new_img img {
+  margin-right: 10px;
 }
 
 .alarm_footer {
