@@ -57,7 +57,7 @@ body {
 .alarm_section_gray_text {
   color: rgba(0, 0, 0, 0.4);
 }
-.new {
+.section_common {
   border-bottom: 1px solid rgba(0, 0, 0, 0.2);
   padding: 10px;
 }
