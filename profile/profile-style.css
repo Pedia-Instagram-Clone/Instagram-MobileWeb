@@ -55,6 +55,7 @@ text-align: start;
 
 .header{
   width: 100%;
+  padding: 0px 12px 0px 12px;
 }
 .menu{
   display: flex;  
