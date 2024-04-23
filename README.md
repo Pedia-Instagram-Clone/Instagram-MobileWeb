@@ -1,2 +1,0 @@
-# Instagram-MobileWeb
-Instagram Clone
