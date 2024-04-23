@@ -16,6 +16,20 @@ body {
 }
 
 .plus_header {
+  width: 100%;
   display: flex;
   justify-content: space-between;
+  padding: 10px;
+  font-size: 16px;
+}
+.plus_header_item:nth-child(1) {
+  color: black;
+}
+.plus_header_item:nth-child(2) {
+  color: black;
+  opacity: 0.5;
+}
+.plus_header_item:nth-child(3) {
+  color: #3897f0;
+  opacity: 0.5;
 }
