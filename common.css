@@ -2,7 +2,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  max-width: 390px;
+  max-width: 420px;
   min-width: 370px;
   height: 100vh;
   margin: 0 auto;
