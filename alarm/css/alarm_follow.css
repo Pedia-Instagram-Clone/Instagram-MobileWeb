@@ -26,13 +26,17 @@ body {
 }
 .alarm_header_item {
   text-align: center;
+  text-decoration: none;
   width: 50%;
   height: 100%;
   background-color: white;
   font-size: 16px;
   border: none;
-  padding-bottom: 20px;
+  padding-bottom: 7px;
   color: rgba(0, 0, 0, 0.4);
+}
+.alarm_header_item:hover {
+  color: rgba(0, 0, 0, 0.7);
 }
 .alarm_header_item:nth-child(1) {
   border-bottom: 2px solid;
