@@ -101,6 +101,24 @@ span.ingredient{
   align-items: flex-start;
 }
 
+.header-edit p{
+  margin-top: 15px;
+  box-sizing: border-box;
+  border: 1px solid rgba(60, 60, 67, 0.18);
+  border-radius: 6px;
+  padding: 5px 5px 5px 5px;
+  text-align: center;
+  size: 12px;
+  background: rgb(255, 255, 255);
+  color: rgb(38, 38, 38);
+font-family: Pretendard;
+font-size: 13px;
+font-weight: 100;
+line-height: 18px;
+letter-spacing: -0.1px;
+text-align: center;
+}
+
 .home_footer {
     width: 100%;
     display: flex;
