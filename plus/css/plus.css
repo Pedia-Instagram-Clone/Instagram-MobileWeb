@@ -58,9 +58,12 @@ body {
 }
 
 .plus_section {
-  height: 100%;
+  height: 90%;
   display: flex;
   flex-direction: column;
+}
+.plus_section_big {
+  height: 50%;
 }
 .plus_section_big_img {
   display: flex;
@@ -68,15 +71,15 @@ body {
   height: 100%;
 }
 .plus_section_small {
-  max-height: 370px;
+  height: 100%;
   display: flex;
   flex-wrap: wrap;
+  gap: 4px;
   overflow-y: scroll;
-  background-color: rgba(0, 0, 0, 0.05);
 }
 .plus_section_small_img {
-  width: 25%;
-  height: 80px;
+  width: calc(24%);
+  aspect-ratio: 1 / 1;
   object-fit: cover;
 }
 .plus_section_small_img:hover {
