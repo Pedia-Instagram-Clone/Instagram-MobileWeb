@@ -34,7 +34,7 @@ body {
   padding-bottom: 20px;
   color: rgba(0, 0, 0, 0.4);
 }
-.alarm_header_item:nth-child(2) {
+.alarm_header_item:nth-child(1) {
   border-bottom: 2px solid;
   border-image: linear-gradient(to right, #fbaa47, #d91a46, #a60f93) 1;
   cursor: pointer;
@@ -57,8 +57,7 @@ body {
 .alarm_section_gray_text {
   color: rgba(0, 0, 0, 0.4);
 }
-.section_common {
-  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+.new {
   padding: 10px;
 }
 .new_text {
@@ -79,7 +78,28 @@ body {
 .new_img img {
   margin-right: 10px;
 }
-
+.new_item_first_div {
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+}
+.new_item_first_div img {
+  margin-bottom: 40px;
+  margin-right: 20px;
+}
+.new_item_second_div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.new_item_second_div_img {
+  display: flex;
+  align-items: center;
+}
+.small_img {
+  width: 40px;
+  height: 40px;
+}
 .follow_btn_white {
   width: 80px;
   background-color: white;
