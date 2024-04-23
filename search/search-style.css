@@ -91,13 +91,14 @@ body {
 .search-data {
   overflow-y: scroll;
   width: 100%;
+  padding-bottom: 50px;
 }
 .search-data-item {
   display: flex;
 }
 
 .searhc-data-item-main img {
-  height: 100.5%;
+  height: 100%;
 }
 
 .search-data-item-main {
@@ -112,16 +113,13 @@ body {
   padding-right: 1px;
 }
 
-/* .search_footer {
-    width: 100%;
-    display: flex;
-    border-top: 1px solid rgba(0, 0, 0, 0.2);
-    margin-top: 20px;
-  } */
 
 .search_footer {
   width: 100%;
   display: flex;
+  position: fixed;
+  bottom: 0;
+  background-color: white;
   justify-content: space-between;
   align-items: center;
   border-top: 1px solid rgba(0, 0, 0, 0.2);
