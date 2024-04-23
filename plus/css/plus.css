@@ -33,3 +33,15 @@ body {
   color: #3897f0;
   opacity: 0.5;
 }
+.plus_footer_item:nth-child(1) {
+  color: black;
+  opacity: 0.8;
+}
+.plus_footer_item:nth-child(2) {
+  color: black;
+  opacity: 0.5;
+}
+.plus_footer_item:nth-child(3) {
+  color: black;
+  opacity: 0.5;
+}
