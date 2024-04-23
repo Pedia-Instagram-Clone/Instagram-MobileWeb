@@ -17,4 +17,4 @@ jobs:
           aws s3 cp \
             --recursive \
             --region ap-northeast-2 \
-            ./login s3://instagram-clone-release
+            ./ s3://instagram-clone-release
