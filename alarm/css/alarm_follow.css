@@ -75,15 +75,17 @@ body {
   display: flex;
   align-items: center;
 }
-.new_img img {
-  margin-right: 10px;
-}
 .new_item_first_div {
   height: 100%;
   display: flex;
   align-items: flex-start;
 }
 .new_item_first_div img {
+  display: flex;
+  align-items: flex-start;
+  margin-right: 20px;
+}
+.many_small_img_div img {
   margin-bottom: 40px;
   margin-right: 20px;
 }
@@ -94,6 +96,8 @@ body {
 }
 .new_item_second_div_img {
   display: flex;
+  flex-wrap: wrap;
+  gap: 1px;
   align-items: center;
 }
 .small_img {
